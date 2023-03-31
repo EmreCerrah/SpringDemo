@@ -8,8 +8,6 @@ import java.util.List;
 @RestController
 @RequestMapping(path = "api/v1/student")
 public class StudentController {
-            // Verilerin database de apiye, apiden database'e akisini saglayan kontrol eden sinif burasi
-
     private final StudentService studentService;
     @Autowired
     public StudentController(StudentService studentService) {

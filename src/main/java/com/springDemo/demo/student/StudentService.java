@@ -11,7 +11,6 @@ import java.util.Optional;
 
 @Service
 public class StudentService  {
-    // Hibernetin gucunu kullanarak databese baslanti yapip verileri yoneten sinif
     private final StudentRepositorty studentRepositorty;
     @Autowired
     public StudentService(StudentRepositorty studentRepositorty) {
@@ -55,7 +54,5 @@ public class StudentService  {
             student.setEmail(email);
         }
         studentRepositorty.save(student);
-
-
     }
 }

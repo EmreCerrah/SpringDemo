@@ -1,0 +1,1 @@
+api/v1/student EndPointi ile POST işlemleri gerçekleştirilebilir

@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @Entity (name = "Student")
 @Table (name = "student", uniqueConstraints = { @UniqueConstraint( name = "studenr_email_unique", columnNames = "email")})
 public class Student {
-                // Database de tutulan sinif
     @Getter
     @Setter
     @Id
@@ -42,7 +41,6 @@ public class Student {
     @Column(name = "birth_year",columnDefinition = "INTEGER")
     int birthYear;
 
-    // Transent >> database'de saklamasina gerek olmayan veriler icin kullanilir
     @Transient
     @Setter
     private int age;
