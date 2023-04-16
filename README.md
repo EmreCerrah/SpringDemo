@@ -1,1 +1,2 @@
-api/v1/student EndPointi ile POST işlemleri gerçekleştirilebilir
+### Post and Get endpoints
+api/v1/student 
